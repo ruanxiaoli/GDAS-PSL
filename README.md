@@ -8,7 +8,7 @@ This is the official PyTorch code for the paper:
 
 **Sina Xia**, **Xiaoli Ruan**,**Jing Yang**,**Quan Zhou**,**Guangfeng Lin**, **Suhao Chen**, **Yajun Chen**
 
-**Paper**|**Code**
+**Paper**|[**Code**](https://github.com/ruanxiaoli/GDAS-PSL)
 
 ![Uploading 方法的图.jpg…](https://github.com/ruanxiaoli/GDAS-PSL/blob/main/Method.jpg)
 
