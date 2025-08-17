@@ -10,7 +10,8 @@ This is the official PyTorch code for the paper:
 
 **Paper**|**Code**
 
-![Paper](D:\mystudy\日常工作\科研\论文\我的论文\使用扩散模型做质量增强解决质量不一致\原版\图\方法的图.jpg)
+![Uploading 方法的图.jpg…]()
+
 
 ## Setup
 
@@ -119,4 +120,4 @@ Complex Protein Subcellular Localization},
 
 
 
-**If you have any questions you can contact us :**gs.snxia23@gzu.edu.cn **or**xlruan@gzu.edu.cn.
+**If you have any questions you can contact us**:gs.snxia23@gzu.edu.cn **or**xlruan@gzu.edu.cn.
