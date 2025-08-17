@@ -24,8 +24,8 @@ The model code is implemented based on the PyTorch framework. The experimental e
 Create a conda environment `py38` using:
 
 ```
-conda env create -f environment.yml
-conda activate py38
+	conda env create -f environment.yml
+	conda activate py38
 ```
 
 
@@ -37,7 +37,7 @@ conda activate py38
 The datasets utilized in our work (D1, D2, D3) must be prepared prior to model training and testing. The data is downloaded from The Human Protein Atlas (HPA) database（The Human Protein Atlas](https://www.proteinatlas.org/)）） and can be obtained using the following code:
 
 ```
-python utils/down_img.py
+	python utils/down_img.py
 ```
 
 
@@ -95,7 +95,7 @@ Perform low-quality data enhancement based on the diffusion model. The command i
 Testing the **GDAS-PSL** model:
 
 ```
-python TestD1.py
+	python TestD1.py
 ```
 
 
