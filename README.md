@@ -10,7 +10,7 @@ This is the official PyTorch code for the paper:
 
 **Paper**|[**Code**](https://github.com/ruanxiaoli/GDAS-PSL)
 
-![Uploading 方法的图.jpg…]([https://github.com/ruanxiaoli/GDAS-PSL/blob/main/Method.jpg](https://github.com/ruanxiaoli/GDAS-PSL/blob/main/Method.jpg))
+![Uploading 方法的图.jpg…](https://raw.githubusercontent.com/ruanxiaoli/GDAS-PSL/main/Method.jpg)
 
 
 ## Setup
