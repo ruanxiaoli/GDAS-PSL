@@ -1,0 +1,15 @@
+ENSG00000030582	Vesicles,Endoplasmic Reticulum
+ENSG00000031691	Nucleoplasm
+ENSG00000031698	Cytoplasm
+ENSG00000031823	Nucleoplasm
+ENSG00000033030	Nucleoplasm
+ENSG00000033170	Golgi Apparatus,Cytoplasm
+ENSG00000033178	Nucleoplasm,Cytoplasm
+ENSG00000035403	Cytoplasm
+ENSG00000035928	Nucleoplasm
+ENSG00000036054	Golgi Apparatus
+ENSG00000037280	Plasma Membrane,Nucleoplasm
+ENSG00000037897	Nucleoplasm
+ENSG00000038219	Nucleoplasm
+ENSG00000038358	Cytoplasm
+ENSG00000039319	Vesicles,Cytoplasm

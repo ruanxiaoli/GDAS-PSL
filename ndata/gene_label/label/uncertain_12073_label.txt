@@ -1,0 +1,691 @@
+ENSG00000000457	Nucleoplasm,Cytoplasm
+ENSG00000001631	Vesicles
+ENSG00000004766	Plasma Membrane,Cytoplasm
+ENSG00000005102	Mitochondria,Nucleoli
+ENSG00000006837	Vesicles,Nucleoplasm
+ENSG00000007312	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000007384	Vesicles
+ENSG00000011009	Nucleoplasm,Cytoplasm
+ENSG00000014164	Golgi Apparatus,Nucleoplasm
+ENSG00000015568	Nuclear membrane,Vesicles
+ENSG00000015592	Golgi Apparatus,Vesicles
+ENSG00000021461	Cytoplasm
+ENSG00000026950	Vesicles
+ENSG00000035720	Vesicles,Nucleoplasm
+ENSG00000041353	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000044524	Golgi Apparatus,Nucleoplasm,Cytoplasm
+ENSG00000047056	Cytoplasm
+ENSG00000048545	Plasma Membrane
+ENSG00000048740	Nucleoplasm,Cytoplasm
+ENSG00000049239	Cytoplasm
+ENSG00000049246	Cytoplasm
+ENSG00000050030	Nucleoplasm
+ENSG00000050438	Cytoplasm
+ENSG00000051108	Plasma Membrane,Cytoplasm
+ENSG00000051341	Golgi Apparatus,Nucleoplasm,Cytoplasm
+ENSG00000051825	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000052344	Cytoplasm
+ENSG00000054523	Nucleoli,Cytoplasm
+ENSG00000054938	Mitochondria
+ENSG00000056487	Nucleoli,Nucleoplasm
+ENSG00000059728	Mitochondria,Nucleoplasm,Cytoplasm
+ENSG00000061455	Nucleoplasm
+ENSG00000061492	Plasma Membrane,Cytoplasm
+ENSG00000062038	Plasma Membrane,Cytoplasm
+ENSG00000062096	Cytoplasm
+ENSG00000063015	Cytoplasm
+ENSG00000065491	Nucleoplasm,Cytoplasm
+ENSG00000065609	Cytoplasm
+ENSG00000065882	Nucleoli
+ENSG00000066248	Plasma Membrane,Cytoplasm
+ENSG00000067842	Golgi Apparatus,Plasma Membrane
+ENSG00000069018	Cytoplasm
+ENSG00000069493	Golgi Apparatus,Nucleoplasm
+ENSG00000069702	Cytoplasm
+ENSG00000069943	Plasma Membrane,Cytoplasm
+ENSG00000070019	Vesicles
+ENSG00000070182	Golgi Apparatus,Cytoplasm
+ENSG00000072415	Nucleoplasm
+ENSG00000072609	Nucleoplasm,Cytoplasm
+ENSG00000073734	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000074695	Cytoplasm
+ENSG00000074771	Vesicles
+ENSG00000074855	Nucleoli,Nucleoplasm
+ENSG00000075568	Vesicles,Cytoplasm
+ENSG00000075711	Vesicles,Plasma Membrane
+ENSG00000075884	Golgi Apparatus,Vesicles,Nucleoplasm
+ENSG00000076650	Plasma Membrane,Nucleoplasm
+ENSG00000077274	Cytoplasm
+ENSG00000078596	Nucleoplasm
+ENSG00000080345	Plasma Membrane
+ENSG00000080709	Nucleoplasm,Cytoplasm
+ENSG00000081051	Cytoplasm
+ENSG00000081320	Plasma Membrane,Cytoplasm
+ENSG00000081791	Golgi Apparatus,Nucleoplasm
+ENSG00000081818	Plasma Membrane,Cytoplasm
+ENSG00000081985	Plasma Membrane,Cytoplasm
+ENSG00000083444	Vesicles,Nucleoplasm
+ENSG00000084110	Cytoplasm
+ENSG00000084112	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000084623	Nucleoplasm,Cytoplasm
+ENSG00000086475	Nucleoplasm
+ENSG00000086717	Plasma Membrane,Cytoplasm
+ENSG00000087074	Vesicles
+ENSG00000087245	Vesicles,Cytoplasm
+ENSG00000088836	Vesicles,Nucleoplasm
+ENSG00000089094	Nucleoplasm
+ENSG00000089177	Mitochondria
+ENSG00000089248	Nucleoplasm,Cytoplasm
+ENSG00000089847	Cytoplasm
+ENSG00000090339	Plasma Membrane,Cytoplasm
+ENSG00000091128	Cytoplasm
+ENSG00000091513	Mitochondria
+ENSG00000092051	Nucleoplasm,Cytoplasm
+ENSG00000092850	Cytoplasm
+ENSG00000095539	Vesicles
+ENSG00000095752	Mitochondria
+ENSG00000095917	Nucleoplasm
+ENSG00000096093	Plasma Membrane,Cytoplasm
+ENSG00000096433	Vesicles
+ENSG00000099250	Mitochondria
+ENSG00000099840	Vesicles,Nucleoplasm
+ENSG00000099958	Vesicles
+ENSG00000100060	Cytoplasm
+ENSG00000100218	Nucleoli
+ENSG00000100292	Golgi Apparatus,Plasma Membrane
+ENSG00000100299	Golgi Apparatus,Cytoplasm
+ENSG00000100373	Nuclear membrane,Nucleoplasm
+ENSG00000100403	Cytoplasm
+ENSG00000100557	Nucleoplasm,Cytoplasm
+ENSG00000100558	Vesicles,Cytoplasm
+ENSG00000100842	Nucleoplasm,Cytoplasm
+ENSG00000101152	Golgi Apparatus
+ENSG00000101298	Mitochondria,Cytoplasm
+ENSG00000101307	Vesicles
+ENSG00000101350	Golgi Apparatus,Nucleoli,Nucleoplasm
+ENSG00000101695	Golgi Apparatus,Nucleoli,Cytoplasm
+ENSG00000101825	Mitochondria
+ENSG00000102225	Plasma Membrane,Cytoplasm
+ENSG00000102359	Cytoplasm
+ENSG00000102781	Nucleoplasm,Cytoplasm
+ENSG00000103034	Nucleoplasm,Cytoplasm
+ENSG00000103089	Nuclear membrane
+ENSG00000103184	Golgi Apparatus,Cytoplasm
+ENSG00000103522	Plasma Membrane,Cytoplasm
+ENSG00000104549	Vesicles,Cytoplasm
+ENSG00000104814	Plasma Membrane,Nucleoplasm
+ENSG00000105143	Cytoplasm
+ENSG00000105251	Cytoplasm
+ENSG00000105278	Nucleoplasm
+ENSG00000105329	Cytoplasm
+ENSG00000105366	Cytoplasm
+ENSG00000105402	Cytoplasm
+ENSG00000105677	Golgi Apparatus,Cytoplasm
+ENSG00000105808	Vesicles
+ENSG00000106258	Cytoplasm
+ENSG00000106415	Nucleoli
+ENSG00000106436	Cytoplasm
+ENSG00000106538	Cytoplasm
+ENSG00000106819	Nucleoplasm
+ENSG00000106852	Nucleoli,Plasma Membrane
+ENSG00000107742	Nucleoplasm
+ENSG00000108370	Nucleoplasm
+ENSG00000108381	Cytoplasm
+ENSG00000108622	Cytoplasm
+ENSG00000108669	Nucleoli,Nucleoplasm
+ENSG00000108953	Cytoplasm
+ENSG00000109193	Nuclear membrane,Cytoplasm
+ENSG00000109466	Nucleoplasm
+ENSG00000109684	Vesicles
+ENSG00000110318	Nucleoplasm,Cytoplasm
+ENSG00000111215	Vesicles
+ENSG00000111229	Nucleoplasm
+ENSG00000111245	Cytoplasm
+ENSG00000111581	Nucleoplasm,Cytoplasm
+ENSG00000111726	Cytoplasm
+ENSG00000111796	Nucleoplasm,Cytoplasm
+ENSG00000111863	Nucleoli
+ENSG00000112077	Endoplasmic Reticulum
+ENSG00000112137	Plasma Membrane
+ENSG00000112539	Mitochondria
+ENSG00000113196	Nuclear membrane,Nucleoplasm
+ENSG00000113211	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000113430	Vesicles,Nucleoplasm
+ENSG00000113504	Cytoplasm
+ENSG00000113600	Plasma Membrane,Cytoplasm
+ENSG00000113905	Nucleoli
+ENSG00000114107	Nucleoplasm,Cytoplasm
+ENSG00000114374	Vesicles
+ENSG00000114786	Vesicles
+ENSG00000114850	Cytoplasm
+ENSG00000115020	Nucleoplasm
+ENSG00000115084	Plasma Membrane
+ENSG00000115380	Mitochondria
+ENSG00000115507	Nucleoplasm,Cytoplasm
+ENSG00000115840	Nucleoplasm,Cytoplasm
+ENSG00000115904	Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000116031	Cytoplasm
+ENSG00000116191	Nucleoplasm,Cytoplasm
+ENSG00000116726	Nucleoplasm
+ENSG00000116833	Nucleoplasm
+ENSG00000117151	Cytoplasm
+ENSG00000117480	Cytoplasm
+ENSG00000117643	Vesicles,Nucleoplasm
+ENSG00000117682	Plasma Membrane
+ENSG00000117868	Cytoplasm
+ENSG00000118194	Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000118492	Mitochondria,Nucleoplasm
+ENSG00000118733	Vesicles
+ENSG00000118894	Vesicles
+ENSG00000118961	Nucleoplasm,Cytoplasm
+ENSG00000119227	Vesicles
+ENSG00000119919	Nucleoli,Cytoplasm
+ENSG00000119946	Plasma Membrane,Cytoplasm
+ENSG00000120162	Cytoplasm
+ENSG00000120279	Nucleoplasm
+ENSG00000121207	Golgi Apparatus,Endoplasmic Reticulum
+ENSG00000121380	Cytoplasm
+ENSG00000122194	Vesicles
+ENSG00000122390	Cytoplasm
+ENSG00000122482	Vesicles
+ENSG00000122574	Mitochondria
+ENSG00000122694	Vesicles,Cytoplasm
+ENSG00000123338	Plasma Membrane,Cytoplasm
+ENSG00000123595	Nucleoplasm,Cytoplasm
+ENSG00000123892	Mitochondria,Nucleoplasm
+ENSG00000124196	Nucleoli
+ENSG00000124209	Cytoplasm
+ENSG00000124486	Vesicles
+ENSG00000124593	Cytoplasm
+ENSG00000125122	Nucleoplasm
+ENSG00000125355	Nucleoplasm
+ENSG00000125726	Nucleoplasm
+ENSG00000125743	Cytoplasm
+ENSG00000125814	Cytoplasm
+ENSG00000125821	Nucleoli,Cytoplasm
+ENSG00000125910	Mitochondria
+ENSG00000125912	Vesicles,Nucleoplasm
+ENSG00000126214	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000126249	Mitochondria
+ENSG00000126264	Vesicles
+ENSG00000126790	Vesicles
+ENSG00000126856	Nucleoplasm
+ENSG00000126882	Vesicles,Nucleoplasm
+ENSG00000127720	Mitochondria,Plasma Membrane,Cytoplasm
+ENSG00000128383	Nucleoplasm
+ENSG00000128394	Nucleoplasm,Cytoplasm
+ENSG00000128881	Cytoplasm
+ENSG00000129103	Vesicles,Plasma Membrane
+ENSG00000129167	Cytoplasm
+ENSG00000129204	Vesicles
+ENSG00000129221	Nucleoplasm,Cytoplasm
+ENSG00000129451	Plasma Membrane,Cytoplasm
+ENSG00000129596	Nucleoplasm
+ENSG00000130255	Endoplasmic Reticulum,Cytoplasm
+ENSG00000130287	Vesicles,Cytoplasm
+ENSG00000130377	Cytoplasm
+ENSG00000130477	Nuclear membrane,Endoplasmic Reticulum,Cytoplasm
+ENSG00000130653	Cytoplasm
+ENSG00000130876	Nucleoli,Nucleoplasm
+ENSG00000131019	Vesicles,Cytoplasm
+ENSG00000131023	Vesicles,Nucleoplasm
+ENSG00000131044	Nucleoplasm,Cytoplasm
+ENSG00000131848	Nucleoplasm
+ENSG00000131914	Nucleoplasm
+ENSG00000131969	Nucleoplasm
+ENSG00000132321	Nucleoplasm
+ENSG00000132341	Nucleoplasm
+ENSG00000132698	Plasma Membrane,Cytoplasm
+ENSG00000132854	Cytoplasm
+ENSG00000133059	Nucleoplasm,Cytoplasm
+ENSG00000133460	Plasma Membrane,Nucleoplasm
+ENSG00000133561	Nucleoplasm
+ENSG00000133597	Cytoplasm
+ENSG00000133962	Vesicles
+ENSG00000134160	Nucleoplasm,Cytoplasm
+ENSG00000134207	Vesicles
+ENSG00000134242	Vesicles,Nucleoplasm
+ENSG00000134256	Mitochondria
+ENSG00000134376	Vesicles
+ENSG00000134470	Plasma Membrane,Cytoplasm
+ENSG00000134569	Mitochondria,Nucleoli,Nucleoplasm
+ENSG00000134815	Nucleoplasm,Cytoplasm
+ENSG00000134910	Vesicles,Nucleoplasm,Cytoplasm
+ENSG00000135090	Mitochondria
+ENSG00000135248	Cytoplasm
+ENSG00000135312	Plasma Membrane
+ENSG00000135678	Vesicles
+ENSG00000135697	Cytoplasm
+ENSG00000135709	Nucleoplasm,Cytoplasm
+ENSG00000136011	Cytoplasm
+ENSG00000136026	Nucleoplasm,Cytoplasm
+ENSG00000136099	Golgi Apparatus,Cytoplasm
+ENSG00000136352	Golgi Apparatus,Vesicles
+ENSG00000136731	Cytoplasm
+ENSG00000136874	Nucleoli,Cytoplasm
+ENSG00000136881	Vesicles
+ENSG00000136933	Plasma Membrane
+ENSG00000137218	Nucleoplasm
+ENSG00000137261	Vesicles
+ENSG00000138050	Nucleoplasm
+ENSG00000138061	Mitochondria
+ENSG00000138152	Nucleoli,Cytoplasm
+ENSG00000138185	Cytoplasm
+ENSG00000138316	Cytoplasm
+ENSG00000138623	Vesicles
+ENSG00000138678	Plasma Membrane,Cytoplasm
+ENSG00000139318	Nucleoplasm
+ENSG00000139597	Nucleoplasm,Cytoplasm
+ENSG00000139725	Golgi Apparatus,Nucleoplasm
+ENSG00000139800	Vesicles,Nucleoplasm
+ENSG00000140015	Cytoplasm
+ENSG00000140259	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000140264	Nucleoli,Nucleoplasm
+ENSG00000140443	Vesicles
+ENSG00000140527	Cytoplasm
+ENSG00000140623	Cytoplasm
+ENSG00000140948	Nuclear membrane
+ENSG00000141086	Nucleoplasm
+ENSG00000141200	Nucleoli,Cytoplasm
+ENSG00000141452	Nucleoplasm
+ENSG00000141485	Nucleoplasm
+ENSG00000141497	Nucleoplasm,Cytoplasm
+ENSG00000141837	Endoplasmic Reticulum
+ENSG00000142303	Cytoplasm
+ENSG00000142484	Plasma Membrane,Nucleoplasm
+ENSG00000142549	Nucleoplasm
+ENSG00000142961	Cytoplasm
+ENSG00000143105	Nucleoplasm,Cytoplasm
+ENSG00000143318	Mitochondria,Nucleoplasm
+ENSG00000143512	Mitochondria,Cytoplasm
+ENSG00000143537	Vesicles
+ENSG00000143570	Cytoplasm
+ENSG00000143774	Nucleoplasm,Cytoplasm
+ENSG00000143882	Mitochondria
+ENSG00000144061	Vesicles
+ENSG00000144339	Cytoplasm
+ENSG00000144681	Plasma Membrane,Nucleoplasm
+ENSG00000144792	Nucleoli,Cytoplasm
+ENSG00000144891	Vesicles
+ENSG00000145002	Vesicles
+ENSG00000145358	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000145781	Plasma Membrane
+ENSG00000145920	Vesicles
+ENSG00000145996	Vesicles
+ENSG00000146013	Plasma Membrane,Cytoplasm
+ENSG00000146070	Vesicles
+ENSG00000146221	Vesicles
+ENSG00000146410	Vesicles
+ENSG00000146856	Mitochondria,Nucleoplasm,Cytoplasm
+ENSG00000147138	Vesicles
+ENSG00000147144	Mitochondria
+ENSG00000147316	Nucleoplasm
+ENSG00000147596	Nucleoplasm
+ENSG00000148426	Plasma Membrane,Cytoplasm
+ENSG00000148488	Endoplasmic Reticulum
+ENSG00000148832	Nucleoplasm,Cytoplasm
+ENSG00000148841	Vesicles
+ENSG00000149201	Plasma Membrane
+ENSG00000149451	Plasma Membrane,Nucleoplasm
+ENSG00000149927	Nucleoli,Plasma Membrane,Nucleoplasm
+ENSG00000150667	Nucleoplasm
+ENSG00000150676	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000150773	Nucleoplasm,Cytoplasm
+ENSG00000151650	Nucleoli,Cytoplasm
+ENSG00000151715	Nucleoplasm,Cytoplasm
+ENSG00000151790	Plasma Membrane,Cytoplasm
+ENSG00000152076	Vesicles
+ENSG00000152409	Nucleoplasm
+ENSG00000152952	Nucleoli,Cytoplasm
+ENSG00000153294	Mitochondria
+ENSG00000153822	Vesicles
+ENSG00000155659	Nucleoli,Plasma Membrane,Cytoplasm
+ENSG00000155890	Mitochondria,Nucleoplasm
+ENSG00000156500	Nucleoplasm
+ENSG00000156521	Nucleoplasm,Cytoplasm
+ENSG00000157103	Mitochondria
+ENSG00000157330	Cytoplasm
+ENSG00000157349	Nucleoplasm
+ENSG00000157445	Nucleoplasm,Cytoplasm
+ENSG00000157500	Cytoplasm
+ENSG00000157578	Nucleoplasm,Cytoplasm
+ENSG00000158023	Plasma Membrane,Cytoplasm
+ENSG00000158042	Golgi Apparatus,Nucleoli,Vesicles
+ENSG00000158077	Cytoplasm
+ENSG00000158104	Nucleoplasm
+ENSG00000158158	Cytoplasm
+ENSG00000158639	Mitochondria
+ENSG00000158966	Nucleoli,Nucleoplasm
+ENSG00000159131	Mitochondria,Nucleoplasm,Cytoplasm
+ENSG00000159173	Nucleoli,Nucleoplasm
+ENSG00000159189	Vesicles
+ENSG00000159261	Vesicles
+ENSG00000159348	Mitochondria,Nucleoli,Cytoplasm
+ENSG00000159403	Nucleoplasm,Cytoplasm
+ENSG00000159958	Nucleoplasm
+ENSG00000160613	Nucleoli,Nuclear membrane,Nucleoplasm
+ENSG00000160868	Cytoplasm
+ENSG00000160870	Cytoplasm
+ENSG00000161405	Plasma Membrane,Cytoplasm
+ENSG00000161939	Nucleoplasm,Cytoplasm
+ENSG00000161980	Nucleoplasm,Cytoplasm
+ENSG00000162391	Nucleoplasm
+ENSG00000162444	Nucleoplasm,Cytoplasm
+ENSG00000162460	Nucleoplasm,Cytoplasm
+ENSG00000162543	Plasma Membrane,Nucleoplasm
+ENSG00000162714	Golgi Apparatus
+ENSG00000162755	Nucleoplasm
+ENSG00000163040	Vesicles
+ENSG00000163060	Cytoplasm
+ENSG00000163154	Vesicles
+ENSG00000163453	Golgi Apparatus
+ENSG00000163762	Nucleoli,Vesicles
+ENSG00000163825	Mitochondria
+ENSG00000164188	Nucleoplasm
+ENSG00000164292	Vesicles
+ENSG00000164300	Golgi Apparatus,Vesicles,Nucleoplasm
+ENSG00000164620	Vesicles
+ENSG00000164645	Mitochondria,Nucleoplasm
+ENSG00000165140	Mitochondria
+ENSG00000165480	Plasma Membrane,Cytoplasm
+ENSG00000165828	Vesicles,Plasma Membrane,Nucleoplasm
+ENSG00000165915	Cytoplasm
+ENSG00000166246	Nucleoplasm
+ENSG00000166292	Nucleoplasm
+ENSG00000166343	Vesicles,Cytoplasm
+ENSG00000166523	Cytoplasm
+ENSG00000166546	Nucleoplasm,Cytoplasm
+ENSG00000166819	Vesicles
+ENSG00000166840	Golgi Apparatus,Cytoplasm
+ENSG00000166974	Nucleoplasm
+ENSG00000167014	Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000167077	Plasma Membrane,Nucleoplasm
+ENSG00000167208	Nucleoplasm
+ENSG00000167393	Endoplasmic Reticulum
+ENSG00000167550	Nucleoplasm,Cytoplasm
+ENSG00000167642	Plasma Membrane,Cytoplasm
+ENSG00000167711	Vesicles,Nucleoplasm
+ENSG00000167895	Golgi Apparatus
+ENSG00000167930	Mitochondria,Nucleoplasm
+ENSG00000167964	Vesicles,Plasma Membrane,Cytoplasm
+ENSG00000168060	Cytoplasm
+ENSG00000168269	Nucleoli,Vesicles
+ENSG00000168546	Vesicles
+ENSG00000168646	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000168754	Golgi Apparatus,Nucleoplasm
+ENSG00000168772	Golgi Apparatus,Nucleoplasm
+ENSG00000168872	Nucleoplasm
+ENSG00000168993	Vesicles
+ENSG00000169228	Cytoplasm
+ENSG00000169252	Cytoplasm
+ENSG00000169379	Cytoplasm
+ENSG00000169499	Nucleoplasm,Cytoplasm
+ENSG00000169548	Nucleoplasm
+ENSG00000169604	Vesicles
+ENSG00000169627	Nucleoplasm
+ENSG00000169629	Nuclear membrane,Vesicles
+ENSG00000169641	Vesicles,Cytoplasm
+ENSG00000169738	Nucleoli,Cytoplasm
+ENSG00000169760	Plasma Membrane,Nucleoplasm
+ENSG00000169964	Nucleoli,Nucleoplasm
+ENSG00000170298	Cytoplasm
+ENSG00000170310	Golgi Apparatus,Nucleoplasm,Cytoplasm
+ENSG00000170412	Nucleoplasm,Cytoplasm
+ENSG00000170425	Cytoplasm
+ENSG00000170667	Vesicles,Plasma Membrane
+ENSG00000170819	Plasma Membrane,Cytoplasm
+ENSG00000171060	Nucleoplasm
+ENSG00000171067	Nucleoplasm
+ENSG00000171103	Cytoplasm
+ENSG00000171291	Nucleoplasm
+ENSG00000171295	Nucleoplasm
+ENSG00000171433	Mitochondria
+ENSG00000171533	Plasma Membrane
+ENSG00000171617	Plasma Membrane
+ENSG00000171659	Nucleoplasm,Cytoplasm
+ENSG00000171723	Cytoplasm
+ENSG00000171747	Plasma Membrane
+ENSG00000171772	Nucleoplasm,Cytoplasm
+ENSG00000171812	Golgi Apparatus
+ENSG00000171877	Golgi Apparatus,Cytoplasm
+ENSG00000172081	Cytoplasm
+ENSG00000172179	Cytoplasm
+ENSG00000172425	Nucleoplasm
+ENSG00000172803	Plasma Membrane,Cytoplasm
+ENSG00000173214	Cytoplasm
+ENSG00000173320	Nucleoplasm,Cytoplasm
+ENSG00000173372	Golgi Apparatus,Cytoplasm
+ENSG00000173480	Nucleoplasm
+ENSG00000173673	Nucleoplasm
+ENSG00000173705	Golgi Apparatus,Vesicles
+ENSG00000174137	Nucleoplasm
+ENSG00000174227	Vesicles,Nucleoplasm
+ENSG00000174483	Cytoplasm
+ENSG00000174669	Nucleoplasm
+ENSG00000174799	Cytoplasm
+ENSG00000174886	Mitochondria
+ENSG00000175215	Nucleoplasm
+ENSG00000175390	Nucleoli,Cytoplasm
+ENSG00000175482	Mitochondria,Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000175591	Cytoplasm
+ENSG00000175946	Vesicles,Nucleoplasm
+ENSG00000176076	Cytoplasm
+ENSG00000176171	Cytoplasm
+ENSG00000176532	Vesicles,Plasma Membrane
+ENSG00000176542	Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000176563	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000176601	Cytoplasm
+ENSG00000176919	Endoplasmic Reticulum
+ENSG00000176920	Plasma Membrane,Cytoplasm
+ENSG00000177138	Nucleoplasm
+ENSG00000177181	Nucleoli
+ENSG00000177239	Vesicles
+ENSG00000177380	Nucleoli,Vesicles
+ENSG00000177830	Nucleoplasm,Cytoplasm
+ENSG00000178075	Plasma Membrane,Cytoplasm
+ENSG00000178201	Vesicles,Nucleoplasm
+ENSG00000178467	Vesicles,Cytoplasm
+ENSG00000178605	Mitochondria
+ENSG00000178935	Nucleoplasm
+ENSG00000179388	Vesicles,Nucleoplasm
+ENSG00000179542	Cytoplasm
+ENSG00000179902	Nucleoplasm,Cytoplasm
+ENSG00000179941	Nucleoplasm
+ENSG00000180096	Cytoplasm
+ENSG00000180257	Nucleoli
+ENSG00000180316	Cytoplasm
+ENSG00000180336	Plasma Membrane
+ENSG00000180347	Nucleoplasm
+ENSG00000180720	Golgi Apparatus,Nucleoplasm
+ENSG00000180758	Nucleoli,Plasma Membrane
+ENSG00000180776	Mitochondria,Vesicles,Plasma Membrane
+ENSG00000180777	Nucleoli
+ENSG00000180855	Nucleoplasm,Cytoplasm
+ENSG00000180891	Mitochondria,Cytoplasm
+ENSG00000181409	Mitochondria
+ENSG00000181585	Vesicles,Cytoplasm
+ENSG00000181638	Nucleoli,Plasma Membrane,Nucleoplasm
+ENSG00000181649	Nucleoli
+ENSG00000182307	Plasma Membrane,Nucleoplasm
+ENSG00000182752	Plasma Membrane,Cytoplasm
+ENSG00000182952	Nucleoplasm
+ENSG00000182963	Nucleoli,Cytoplasm
+ENSG00000183054	Nuclear membrane,Vesicles
+ENSG00000183092	Golgi Apparatus,Nucleoplasm,Cytoplasm
+ENSG00000183166	Vesicles,Plasma Membrane
+ENSG00000183246	Vesicles,Plasma Membrane
+ENSG00000183323	Nuclear membrane,Nucleoplasm,Cytoplasm
+ENSG00000183336	Nucleoplasm
+ENSG00000183346	Nucleoplasm,Cytoplasm
+ENSG00000183579	Golgi Apparatus
+ENSG00000183706	Cytoplasm
+ENSG00000183977	Nucleoplasm,Cytoplasm
+ENSG00000184185	Golgi Apparatus,Nucleoplasm,Cytoplasm
+ENSG00000184949	Nucleoplasm
+ENSG00000185015	Nucleoli,Vesicles,Nucleoplasm
+ENSG00000185038	Cytoplasm
+ENSG00000185101	Golgi Apparatus
+ENSG00000185274	Golgi Apparatus,Nucleoli,Nucleoplasm
+ENSG00000185483	Cytoplasm
+ENSG00000186150	Mitochondria,Cytoplasm
+ENSG00000186188	Plasma Membrane
+ENSG00000186523	Vesicles
+ENSG00000186976	Nucleoplasm
+ENSG00000187109	Cytoplasm
+ENSG00000187498	Nucleoplasm,Cytoplasm
+ENSG00000187546	Vesicles
+ENSG00000187566	Vesicles
+ENSG00000187630	Nuclear membrane,Vesicles
+ENSG00000187730	Golgi Apparatus,Vesicles
+ENSG00000187824	Nucleoplasm
+ENSG00000188153	Vesicles
+ENSG00000188257	Nucleoli,Nucleoplasm
+ENSG00000188352	Mitochondria
+ENSG00000188393	Plasma Membrane
+ENSG00000188542	Nucleoplasm,Cytoplasm
+ENSG00000188766	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000188958	Mitochondria
+ENSG00000189064	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000189339	Nucleoplasm
+ENSG00000189376	Nucleoplasm,Cytoplasm
+ENSG00000196277	Cytoplasm
+ENSG00000196352	Vesicles,Cytoplasm
+ENSG00000196466	Nucleoplasm,Cytoplasm
+ENSG00000196724	Nucleoplasm
+ENSG00000196748	Vesicles
+ENSG00000196757	Nucleoplasm
+ENSG00000196862	Nuclear membrane,Vesicles
+ENSG00000197008	Cytoplasm
+ENSG00000197054	Nucleoplasm
+ENSG00000197124	Golgi Apparatus
+ENSG00000197213	Nucleoplasm
+ENSG00000197361	Nucleoli,Cytoplasm
+ENSG00000197471	Golgi Apparatus,Plasma Membrane
+ENSG00000197768	Vesicles
+ENSG00000197860	Nucleoplasm
+ENSG00000197961	Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000198099	Nucleoplasm,Cytoplasm
+ENSG00000198369	Nucleoplasm
+ENSG00000198400	Vesicles,Cytoplasm
+ENSG00000198429	Nucleoplasm
+ENSG00000198466	Nucleoplasm
+ENSG00000198520	Cytoplasm
+ENSG00000198553	Vesicles
+ENSG00000198604	Endoplasmic Reticulum
+ENSG00000198719	Nucleoplasm
+ENSG00000198768	Mitochondria
+ENSG00000198771	Plasma Membrane,Nucleoplasm
+ENSG00000198952	Cytoplasm
+ENSG00000203872	Nucleoplasm
+ENSG00000203985	Golgi Apparatus,Nucleoplasm
+ENSG00000204065	Nucleoplasm,Cytoplasm
+ENSG00000204352	Mitochondria
+ENSG00000204379	Nucleoplasm
+ENSG00000204382	Nucleoplasm
+ENSG00000204397	Mitochondria
+ENSG00000204420	Golgi Apparatus
+ENSG00000204514	Nucleoplasm
+ENSG00000204532	Nucleoplasm
+ENSG00000204540	Nucleoplasm
+ENSG00000204618	Vesicles,Plasma Membrane,Cytoplasm
+ENSG00000204624	Nucleoplasm,Cytoplasm
+ENSG00000205517	Nucleoplasm,Cytoplasm
+ENSG00000205593	Plasma Membrane
+ENSG00000205649	Vesicles
+ENSG00000205777	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000205810	Vesicles
+ENSG00000205927	Plasma Membrane,Nucleoplasm
+ENSG00000213139	Cytoplasm
+ENSG00000213145	Nucleoplasm,Cytoplasm
+ENSG00000213420	Golgi Apparatus,Nucleoli,Nucleoplasm
+ENSG00000213722	Cytoplasm
+ENSG00000213965	Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000214212	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000214376	Endoplasmic Reticulum
+ENSG00000214652	Nucleoplasm
+ENSG00000214941	Cytoplasm
+ENSG00000215182	Vesicles
+ENSG00000215262	Plasma Membrane
+ENSG00000215269	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000215274	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000215790	Nucleoplasm
+ENSG00000216649	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000221843	Nucleoplasm
+ENSG00000221874	Nucleoplasm
+ENSG00000222014	Golgi Apparatus
+ENSG00000224659	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000225528	Nucleoli,Nucleoplasm
+ENSG00000225697	Cytoplasm
+ENSG00000226124	Vesicles
+ENSG00000227488	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000230510	Cytoplasm
+ENSG00000233024	Nucleoplasm
+ENSG00000233670	Plasma Membrane,Cytoplasm
+ENSG00000234444	Nucleoplasm
+ENSG00000235961	Mitochondria,Nucleoli
+ENSG00000236362	Golgi Apparatus,Cytoplasm
+ENSG00000236444	Nucleoplasm,Cytoplasm
+ENSG00000237671	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000239713	Nucleoplasm,Cytoplasm
+ENSG00000243364	Vesicles,Nucleoplasm
+ENSG00000246922	Nucleoplasm
+ENSG00000248712	Cytoplasm
+ENSG00000250709	Vesicles
+ENSG00000251287	Nucleoli,Endoplasmic Reticulum
+ENSG00000251692	Cytoplasm
+ENSG00000253313	Nucleoli
+ENSG00000253457	Nucleoplasm,Cytoplasm
+ENSG00000253958	Plasma Membrane,Nucleoplasm
+ENSG00000254685	Vesicles
+ENSG00000255151	Golgi Apparatus,Cytoplasm
+ENSG00000255561	Nucleoplasm,Cytoplasm
+ENSG00000256349	Cytoplasm
+ENSG00000256500	Nucleoplasm,Plasma Membrane,Cytoplasm
+ENSG00000256514	Mitochondria,Nucleoli,Nucleoplasm,Cytoplasm
+ENSG00000257008	Plasma Membrane,Cytoplasm
+ENSG00000258315	Nucleoplasm,Cytoplasm
+ENSG00000258436	Vesicles,Cytoplasm
+ENSG00000258986	Mitochondria
+ENSG00000259305	Nucleoplasm,Cytoplasm
+ENSG00000259316	Cytoplasm
+ENSG00000259431	Nucleoli,Nucleoplasm
+ENSG00000260458	Golgi Apparatus,Nucleoplasm,Cytoplasm
+ENSG00000260537	Nucleoplasm
+ENSG00000260914	Cytoplasm
+ENSG00000261115	Nucleoli,Vesicles
+ENSG00000264364	Nucleoplasm,Cytoplasm
+ENSG00000264668	Nucleoli,Nucleoplasm
+ENSG00000267179	Nucleoplasm
+ENSG00000267534	Golgi Apparatus,Nucleoplasm
+ENSG00000267561	Mitochondria
+ENSG00000267740	Mitochondria
+ENSG00000268861	Cytoplasm
+ENSG00000268870	Nucleoplasm,Cytoplasm
+ENSG00000269035	Nuclear membrane
+ENSG00000269343	Nucleoplasm
+ENSG00000269881	Mitochondria,Nucleoplasm
+ENSG00000270249	Nucleoplasm
+ENSG00000272414	Plasma Membrane,Cytoplasm
+ENSG00000273513	Vesicles
+ENSG00000274274	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000274419	Vesicles
+ENSG00000274512	Vesicles
+ENSG00000274600	Vesicles,Plasma Membrane
+ENSG00000274611	Vesicles
+ENSG00000274792	Cytoplasm
+ENSG00000274808	Vesicles
+ENSG00000274847	Cytoplasm
+ENSG00000274933	Vesicles
+ENSG00000275113	Golgi Apparatus,Plasma Membrane,Cytoplasm
+ENSG00000275793	Vesicles,Plasma Membrane
+ENSG00000275895	Nucleoplasm
+ENSG00000275954	Vesicles
+ENSG00000278224	Cytoplasm
+ENSG00000278299	Vesicles
+ENSG00000278599	Vesicles
+ENSG00000279408	Cytoplasm
+ENSG00000281028	Cytoplasm
+ENSG00000282301	Cytoplasm
+ENSG00000283088	Nucleoplasm,Cytoplasm
+ENSG00000283149	Endoplasmic Reticulum
+ENSG00000283496	Vesicles,Plasma Membrane,Nucleoplasm
