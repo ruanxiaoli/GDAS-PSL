@@ -4,7 +4,7 @@
 
 This is the official PyTorch code for the paper:
 
-**GDAS-PSL: Generative and Dual-Attention Suppression Models for Complex Protein Subcellular Localization（Revision）**
+**GDAS-PSL: Generative and Dual-Attention Suppression Models for Complex Protein Subcellular Localization**
 
 **Sina Xia**, **Xiaoli Ruan**,**Jing Yang**,**Quan Zhou**,**Guangfeng Lin**, **Suhao Chen**, **Yajun Chen**
 
