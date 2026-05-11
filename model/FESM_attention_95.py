@@ -82,8 +82,7 @@ class FESM_attention(nn.Module):
         ca_mask = (ca_important >= ca_threshold).float()
 #        print(ca_mask)
         # Apply mask, generate suppression factor
-        ca_important_suppression = ca_important * ca_mask
-
+        ca_important_suppression = 1 - ca_mask
 
         ca_out_salient = out + ca_important * out
         ca_out_suppression = out * ca_important_suppression
@@ -99,7 +98,8 @@ class FESM_attention(nn.Module):
         # Generate mask
         sa_mask = (sa_important >= sa_threshold).float()
         # Apply mask, generate suppression factor
-        sa_important_suppression = sa_important * sa_mask
+        sa_important_suppression = 1-sa_mask
+
 
 
         sa_out_salient = out + sa_important * out

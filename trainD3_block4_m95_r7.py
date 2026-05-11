@@ -10,9 +10,10 @@ from dataset.dataset import Dataset
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 from metrics import *
-#from model.MSTLoc import MSTLoc
+# from model.MSTLoc import MSTLoc
 from model.MSTLoc_attention_95 import MSTLoc_attention
 import ast
+import os  #
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -46,12 +47,40 @@ class_dict = {
     "Nucleoplasm": 0,
     "Endoplasmic Reticulum": 5
 }
+def label_distribution_from_npy(npy_file):
+    """
+    从npy文件统计标签分布
+    """
+    data = np.load(npy_file, allow_pickle=True)
 
+    # 初始化6个类别的计数
+    label_distributions = [0, 0, 0, 0, 0, 0]
 
+    for item in data:
+        category = item['category']  # 获取类别列表 [1, 0, 0, 0, 0, 0]
+        for i, label in enumerate(category):
+            if label == 1:
+                label_distributions[i] += 1
 
+    return label_distributions
+def class_weight_from_npy(npy_file):
+    """
+    从npy文件计算类权重
+    """
+    data_distribution= label_distribution_from_npy(npy_file)
+    max_count = max(data_distribution)
+    weight = []
+    for i in data_distribution:
+        if i > 0:
+            weight.append(max_count / i)
+        else:
+            weight.append(1.0)  # 防止除零错误
+
+    print(f"类别分布: {data_distribution}")
+    print(f"计算的权重: {weight}")
+    return torch.tensor(weight)
 
 # Count label distribution in enhanced files
-
 def label_distribution(csv_file):
     with open(csv_file, 'r+') as f:
         lines = f.readlines()[1:]
@@ -71,10 +100,10 @@ def label_distribution(csv_file):
     count = 0
     for key in gene_key:
         gene_dict[key] = list(set(gene_dict[key]))
-        count+=1
+        count += 1
         for class_name in gene_dict[key]:
             label_distributions[class_dict[class_name]] += 1
-    return label_distributions,count
+    return label_distributions, count
 
 
 def class_weight(csv_file):
@@ -90,12 +119,10 @@ def class_weight(csv_file):
 def class_rate(csv_file):
     data_distribution = label_distribution(csv_file)[0]
     data_count = label_distribution(csv_file)[1]
-    # max_count = max(data_distribution)
     rate = []
     for i in data_distribution:
-        rate.append( i / data_count)
+        rate.append(i / data_count)
     rate = torch.tensor(rate)
-#    print(rate)
     return rate
 
 
@@ -108,25 +135,25 @@ class WeightedBinaryCrossEntropy(nn.Module):
     def forward(self, y_pred, y_true):
         # Calculate uncertainty weights for each class
         batch_size, num_classes = y_pred.size()
-        
+
         # Transpose matrix so each column contains all samples of one class
         y_pred_transposed = y_pred.transpose(0, 1)
-        
+
         # Calculate entropy for each class
         entropy = torch.zeros(num_classes).to(device)  # Ensure entropy is on the specified device
         for class_index in range(num_classes):
             probs = y_pred_transposed[class_index]  # Get prediction probabilities for all samples of class class_index
             entropy[class_index] = -torch.sum(probs * torch.log(probs + epsilon)) / batch_size
-        
+
         # Calculate uncertainty weights (can use entropy directly or normalize further)
         uncertainty_weights = entropy / torch.mean(entropy)
-        
+
         # Ensure class_weights and uncertainty_weights are on the same device
         combined_weights = self.alpha * self.class_weights + (1 - self.alpha) * uncertainty_weights
-        
+
         # Initialize loss
         loss_value = torch.zeros(size=(y_pred.shape[1],)).to(device)
-        
+
         # Calculate weighted binary cross entropy loss
         for index in range(y_pred.shape[0]):
             for class_index in range(y_pred.shape[1]):
@@ -134,33 +161,53 @@ class WeightedBinaryCrossEntropy(nn.Module):
                     y_true[index][class_index] * torch.log(epsilon + y_pred[index][class_index]) +
                     (1 - y_true[index][class_index]) * torch.log(1 - y_pred[index][class_index] + epsilon)) * \
                     combined_weights[class_index]
-        
+
         loss_value = loss_value / y_pred.shape[0]
         return torch.sum(loss_value)
 
+def run_test(net, test_loader, criterion):
+    net.eval()
+    test_loss = 0
+    all_pred = []
+    all_label = []
+    for img, label in test_loader:
+        img = img.to(device)
+        label = label.reshape(label.shape[0], -1).to(device)
+        outputs = net(img)
+        loss = criterion(outputs, label)
+        test_loss += loss.item()
+        theta_pred = ((torch.max(outputs) - outputs) < theta).int()
+        all_label.append(label)
+        all_pred.append(theta_pred)
+
+    all_label = torch.cat(all_label)
+    all_pred = torch.cat(all_pred)
+    metrics_values = calc_metrics(all_label, all_pred, mode="macro")
+    print(f"Test set metrics: {metrics_values}")
+    return metrics_values
+
 if __name__ == '__main__':
-    log_file = open("./train_final_noFESM_95.log", "a")
+    log_file = open("./train_final_noFESM_95_D3_Weak_0.000001.log", "a")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     net = MSTLoc_attention()
-    net.load_state_dict(torch.load("./model_save/D3_diffusion_fv3.pth"))
-#    weight = class_weight("./utils/train_weak_add_1.csv")
-    weight = class_weight("./utils/train_D3_diffusion_fv3.csv")
 
-#    weight = class_weight("./utils/train_restore_3.csv")
+    model_path = "./model_save/D3_diffusion_Weak_0.000001.pth"
+    if os.path.exists(model_path):
+        net.load_state_dict(torch.load(model_path, map_location=device))
+        weight = class_weight_from_npy("./utils/train_D3_diffusion_fv3.npy")
+        criterion = WeightedBinaryCrossEntropy(weight).to(device)
+        test_set = Dataset("./utils/test_D3_diffusion_fv3.npy")
+        test_loader = DataLoader(test_set, batch_size=1, shuffle=False, num_workers=4)
+        net.to(device)
+        run_test(net, test_loader, criterion)
+        exit()
+    weight = class_weight_from_npy("./utils/train_D3_diffusion_fv3.npy")
     criterion = WeightedBinaryCrossEntropy(weight).to(device)
     optimizer = optim.SGD(net.parameters(), lr=lr, momentum=0.9, weight_decay=0.005)
     # Load the dataset with data augmentation
-#    train_set = Dataset("./utils/train_weak_add_1.npy", transform=None)
     train_set = Dataset("./utils/train_D3_diffusion_fv3.npy", transform=None)
-
-#    train_set = Dataset("./utils/train_restore_3.npy", transform=None)
-
     train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=4)
-#    test_set = Dataset("./utils/test_weak_add_1.npy")
     test_set = Dataset("./utils/test_D3_diffusion_fv3.npy")
-
-#    test_set = Dataset("./utils/test_restore_3.npy")
-
     test_loader = DataLoader(test_set, batch_size=1, shuffle=False, num_workers=4)
 
     # Define the learning rate scheduler
@@ -181,25 +228,25 @@ if __name__ == '__main__':
 
         total_loss = 0
         batch_num = 0
-#        net.train()
-#        for img, label in train_loader:
-#            img = img.to(device)
-#            label = label.reshape(label.shape[0], -1).to(device)
-#            # Clear gradients
-#            optimizer.zero_grad()
-#            # Forward propagation
-#            outputs = net(img)
-#            # Calculate loss
-#            loss = criterion(outputs, label)
-#            # Backward propagation
-#            loss.backward()
-#            # Update weights
-#            optimizer.step()
-#            total_loss += loss.item()
-#            batch_num += 1
-#            print(f"Training epoch {epoch_index + 1}, batch {batch_num}, loss: {loss.item()}")
-#
-#        scheduler.step()  # Update learning rate for the next epoch
+        net.train()
+        for img, label in train_loader:
+            img = img.to(device)
+            label = label.reshape(label.shape[0], -1).to(device)
+            # Clear gradients
+            optimizer.zero_grad()
+            # Forward propagation
+            outputs = net(img)
+            # Calculate loss
+            loss = criterion(outputs, label)
+            # Backward propagation
+            loss.backward()
+            # Update weights
+            optimizer.step()
+            total_loss += loss.item()
+            batch_num += 1
+            print(f"Training epoch {epoch_index + 1}, batch {batch_num}, loss: {loss.item()}")
+
+        scheduler.step()  # Update learning rate for the next epoch
 
         # Testing
         net.eval()
@@ -224,10 +271,9 @@ if __name__ == '__main__':
         metrics_values = calc_metrics(all_label, all_pred, mode="macro")
         example_acc = metrics_values['example_acc']
         print(f"Test set metrics: {metrics_values}")
-        exit()
         if  example_acc > best_acc:
             # Save model
-            torch.save(net.state_dict(), "./model_save/D3_diffusion_fv3.pth")
+            torch.save(net.state_dict(), "./model_save/D3_diffusion_Weak_0.000001.pth")
             best_acc = example_acc
 
         print(f"Training epoch {epoch_index + 1}, average training loss: {total_loss / batch_num}, test set metrics: {metrics_values}")
